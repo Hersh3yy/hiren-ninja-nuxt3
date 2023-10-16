@@ -10,18 +10,19 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            title: 'Hiren Devs Nuxt Tailwind Starter',
+            title: 'Hiren | Developer | DJ | Amsterdam',
+            link: [{rel: 'icon', type: 'image/svg+xml', href: '/hirshi2.svg'}],
             htmlAttrs: {
                 lang: 'en'
             },
             meta: [
                 {
                     name: 'description',
-                    content: 'Nuxt Tailwind Starter'
+                    content: 'Personal website of Hiren Budhrani'
                 },
                 {
                     name: 'keywords',
-                    content: 'amsterdam, bro'
+                    content: 'amsterdam, developer, techno, dj, vue'
                 }
             ]
         }
